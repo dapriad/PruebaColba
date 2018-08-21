@@ -1,4 +1,4 @@
-# webpack-angular-bootstrap
+# Colba test
 
 <h3>Running the project</h3>
 
