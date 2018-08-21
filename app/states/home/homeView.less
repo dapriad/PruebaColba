@@ -1,7 +1,7 @@
 // SettingVariables
 @main-color: #65B61B;
 @secondary-color: orange;
-
+@third-color: gray;
 .main-color {
     color: @main-color;
 }
@@ -10,15 +10,19 @@
     color: @secondary-color;
 }
 
+.third-color {
+    color: @third-color;    
+}
+
 .button-group {
-    float: right; 
+    float: right;
     width: 100%;
     padding: 20px 0;
 }
 
 .button-main-color {
     border: 1px solid @main-color;
-    height:100%;
+    height: 100%;
     border-radius: 5px;
     min-width: 100px;
     float: right;
@@ -35,21 +39,51 @@
 
 .green-box {
     width: 80px;
-	height: 70px;
-	display: block;
-	background-color: #65B61B;
-	padding-top: 15px;
-	border-radius: 10px;
-	float: right;
+    height: 70px;
+    display: block;
+    background-color: #65B61B;
+    padding-top: 15px;
+    border-radius: 10px;
+    float: right;
 }
 
 .icon-check {
     display: block;
-    color:white;
+    color: white;
     font-size: 1.2em;
 }
 
 .row-inline-flex {
     display: inline-flex;
-	width: 100%;
+    width: 100%;
+}
+
+.gender-box {
+    border: 1px solid gray;
+    border-radius: 15px;
+    width: 100%;
+    padding: 10px;
+    position: relative;
+    height: 2.5em;
+}
+
+.span-years {
+    bottom: 4px;
+    position: relative;
+    left: 3px;
+}
+
+.female-icon {
+    font-size: 1.3em;
+}
+
+.row-gender {
+    position: relative;
+	bottom: 10px;
+	padding: 0;
+	width: 40%;
+}
+
+.padding-right {
+    padding-right: 5px;
 }
